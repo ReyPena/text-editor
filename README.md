@@ -33,12 +33,10 @@ This is a simple text build on java.
 testClasses - Assembles test classes.
 
 ### Build Setup tasks
-
 - `init` - Initializes a new Gradle build.
 - `wrapper` - Generates Gradle wrapper files.
 
 ### Distribution tasks
-
 - `assembleDist` - Assembles the main distributions
 - `distTar` - Bundles the project as a distribution.
 - `distZip` - Bundles the project as a distribution.
@@ -59,6 +57,13 @@ testClasses - Assembles test classes.
 - `projects` - Displays the sub-projects of root project 'text-editor'.
 - `properties` - Displays the properties of root project 'text-editor'.
 - `tasks` - Displays the tasks runnable from root project 'text-editor'.
+
+### IDE tasks
+- `cleanEclipse` - Cleans all Eclipse files.
+- `cleanIdea` - Cleans IDEA project files (IML, IPR)
+- `eclipse` - Generates all Eclipse files.
+- `idea` - Generates IDEA project files (IML, IPR, IWS)
+- `openIdea` - Opens the IDEA project
 
 ### Verification tasks
 - `check` - Runs all checks.
