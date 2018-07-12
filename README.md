@@ -4,13 +4,15 @@ This is a simple text build on java.
 ## Dependencies: 
 
 - [Gradle](https://gradle.org/) as a building tool
-- [Maven](https://maven.apache.org/) for tracking an locking depencies
+- [Maven](https://maven.apache.org/) for tracking an locking dependencies
+- [Event Bus](https://github.com/greenrobot/EventBus) to handle events in component
 
 ## How to start the project: 
 
 - eclipse: 
 
      https://www.openmuc.org/hrf_faq/gradle_getting_started/
+     
      http://www.vogella.com/tutorials/EclipseGradle/article.html
 
 - intelliJ: https://www.youtube.com/watch?v=JwPYjnhah3g
