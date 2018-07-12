@@ -1,2 +1,2 @@
 # text-editor
-Simple text build on java
+Simple text build on java.
