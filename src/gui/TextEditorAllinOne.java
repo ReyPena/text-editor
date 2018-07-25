@@ -60,7 +60,18 @@ public class TextEditorAllinOne extends JFrame {
 
 		// Sets frame to middle of screen no matter what monitor it's on.
 		setLocation(width / 2 - getSize().width / 2, height / 2 - getSize().height / 2);
-		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		//Exit Prompt
+        	this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        	this.addWindowListener(new WindowAdapter() {
+        	@Override
+        	public void windowClosing(WindowEvent e) {
+        		int action = JOptionPane.showConfirmDialog(null, "Are you sure you wish to exit?", "Exit?", JOptionPane.YES_NO_OPTION);
+        		if (action == 0) {
+            			System.exit(0);
+            			}
+        		}
+		});
 
 		// Uniform look and feel across all devices
 		try {
